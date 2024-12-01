@@ -17,6 +17,7 @@ dev = [
     "my-project[test]",
     "my-project[doc]",
     "my-project[build]",
+    "jupyter==1.1.1" #This can be enough for the basic setup and will change to jupyterlab if we need advanced
 ]
 lint = [
     "mypy",
